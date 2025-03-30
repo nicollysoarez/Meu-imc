@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">MEU IMC</string>
+
+    <!-- tela inicial -->
+    <string name="iniciar">Iniciar</string>
+    <string name="logo_description">Logo do aplicativo</string>
+
+    <!-- Tela de cálculo -->
+    <string name="titulo_calculadora">MEU IMC</string>
+    <string name="hint_peso">Digite aqui o seu peso (kg)</string>
+    <string name="hint_altura">Digite aqui a sua altura (m)</string>
+    <string name="calcular">CALCULAR</string>
+    <string name="limpar">LIMPAR</string>
+    <string name="fechar">VOLTAR</string>
+
+    <!-- categorias em string -->
+    <string name="abaixo_peso">Abaixo do peso ideal</string>
+    <string name="peso_normal">Peso normal</string>
+    <string name="sobrepeso">Sobrepeso</string>
+    <string name="obesidade1">Obesidade Grau 1</string>
+    <string name="obesidade2">Obesidade Grau 2</string>
+    <string name="obesidade3">Obesidade Grau 3</string>
+
+    <!-- mensagens motivacionais -->
+    <string name="mensagem_abaixo_peso_ideal">Seu corpo merece energia e equilíbrio! Pequenos passos fazem grandes diferenças na sua saúde.</string>
+    <string name="mensagem_peso_normal">Você está no caminho certo! Continue cuidando do seu bem-estar com hábitos saudáveis.</string>
+    <string name="mensagem_sobrepeso">Pequenas mudanças diárias podem trazer grandes resultados. O importante é dar o primeiro passo!</string>
+    <string name="mensagem_obesidade_grau_1">Seu bem-estar é uma jornada, não um destino. Que tal incluir novos hábitos saudáveis no seu dia a dia?</string>
+    <string name="mensagem_obesidade_grau_2">Cada escolha saudável que você faz é um passo em direção a uma vida com mais energia e disposição!</string>
+    <string name="mensagem_obesidade_grau_3">O autocuidado começa com pequenas mudanças! Você é forte e capaz de transformar sua saúde!</string>
+
+
+    <string name="voltar">VOLTAR</string>
+    <string name="resultado">RESULTADO</string>
+</resources>
