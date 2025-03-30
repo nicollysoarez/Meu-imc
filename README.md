@@ -15,7 +15,7 @@
 
 1. Clone o repositório:  
    ```bash
-   git clone https://github.com/seu-usuario/meu-imc.git
+   git clone https://github.com/nicollysoarez/meu-imc.git
 2. Acesse a pasta do projeto:
 cd meu-imc
 3. Execute o projeto conforme a configuração da sua IDE ou via terminal.
