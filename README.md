@@ -1,5 +1,10 @@
 # Meu IMC 🏋️‍♂️📊
 
+<p align="center">
+  <img src="meu-imc logo.gif">
+</p>
+
+
 **Meu IMC** é um aplicativo desenvolvido em **Groovy** e **Java** que permite calcular o Índice de Massa Corporal (IMC) de forma rápida e precisa. Com base no valor calculado, o app também fornece a classificação correspondente de acordo com os padrões da **OMS (Organização Mundial da Saúde)**.  
 
 ## 🚀 Funcionalidades  
