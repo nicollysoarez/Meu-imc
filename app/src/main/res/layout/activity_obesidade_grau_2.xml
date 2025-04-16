@@ -1,46 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="24dp"
-    android:gravity="center"
-    android:background="#FFFFFF">
+    android:layout_height="match_parent">
 
     <ImageView
         android:id="@+id/imgResultado"
         android:layout_width="250dp"
         android:layout_height="250dp"
-        android:src="@drawable/obesidadegrau2"
         android:contentDescription="Imagem Obesidade Grau 2"
-        android:layout_marginBottom="24dp" />
+        android:src="@drawable/obesidadegrau2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.288" />
 
     <TextView
         android:id="@+id/txtDados"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="..."
+        android:textColor="#006341"
         android:textSize="18sp"
         android:textStyle="bold"
-        android:textColor="#006341"
-        android:layout_marginBottom="16dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgResultado"
+        app:layout_constraintVertical_bias="0.069" />
 
     <TextView
         android:id="@+id/txtMensagem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/mensagem_obesidade_grau_2"
-        android:textSize="16sp"
-        android:textColor="#4D4D4D"
         android:textAlignment="center"
-        android:layout_marginBottom="24dp" />
+        android:textColor="#4D4D4D"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnFechar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtDados"
+        app:layout_constraintVertical_bias="0.614" />
 
     <Button
         android:id="@+id/btnFechar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="156dp"
+        android:backgroundTint="#00A859"
         android:text="Voltar"
         android:textColor="#FFFFFF"
-        android:backgroundTint="#00A859" />
-</LinearLayout>
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
